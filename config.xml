@@ -7,6 +7,5 @@ globalization    </description>
        Daniela Perez Mosquera
     </author>
 
-<gap:plugin name="cordova plugin add cordova-plugin-globalization" />
-
+<plugin name="org.apache.cordova.globalization" spec="0.3.4" source="pgb" />
 </widget>
