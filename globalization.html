@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+
+ <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+
+	    function onDeviceReady() {
+       navigator.globalization.getPreferredLanguage(successCallback, errorCallback);
+    }
+
+
+function successCallback(language){
+	alert('language: ' + language.value + '\n');
+	
+	
+	};
+	
+	function errorCallback(error){
+	alert('code: '    + error.code    + '\n' +
+          'message: ' + error.message + '\n');
+		
+		
+		
+		};
+ 
+
+ navigator.globalization.getPreferredLanguage(successCallback, errorCallback);
+
+</script>
+</head>
+
+<body>
+</body>
+</html>

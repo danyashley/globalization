@@ -1,0 +1,5 @@
+
+
+
+<gap:plugin name="cordova plugin add org.apache.cordova.geolocation" />
+<gap:plugin name="cordova plugin add cordova-plugin-globalization" />
