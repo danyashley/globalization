@@ -1,5 +1,14 @@
-
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="net.greensnacks.consejos" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Ejemplo</name> <!-- nombre de la app, lo que aparece en el celu -->
+    <description>
+globalization    </description>
+    <author email="dany.perezmosquera@gmail.com" href="http://greensnacks.tk"><!-- mail y sitio del creador de la app-->
+       Daniela Perez Mosquera
+    </author>
 
 
 <gap:plugin name="cordova plugin add org.apache.cordova.geolocation" />
 <gap:plugin name="cordova plugin add cordova-plugin-globalization" />
+
+</widget>
